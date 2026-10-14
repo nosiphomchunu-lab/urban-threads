@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Threads | Login</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <a class="brand" href="index.html">URBAN THREADS</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="shop-page">
+    <section class="shop-heading">
+      <p class="eyebrow">WELCOME BACK</p>
+      <h1>Login or Sign Up</h1>
+    </section>
+
+    <section class="auth-container">
+      <form id="auth-form">
+        <input
+          type="email"
+          id="email"
+          placeholder="Email address"
+          required
+        />
+
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+
+        <button type="submit" id="login-button" class="add-to-cart">
+          Log In
+        </button>
+
+        <button type="button" id="signup-button" class="secondary-button">
+          Create Account
+        </button>
+
+        <p id="auth-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <script type="module" src="./auth.js"></script>
+  <script type="module" src="./main.js"></script>
+  
+</body>
+</html>

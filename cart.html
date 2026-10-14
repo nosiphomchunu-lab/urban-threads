@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Threads | Cart</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <a class="brand" href="index.html">URBAN THREADS</a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main class="shop-page">
+    <section class="shop-heading">
+      <p class="eyebrow">YOUR BAG</p>
+      <h1>Shopping Cart</h1>
+      <p>Review your selected streetwear pieces.</p>
+    </section>
+
+    <section id="cart-items" class="cart-items"></section>
+
+    <section class="cart-summary">
+      <h2>Order Summary</h2>
+      <p>Total: <strong id="cart-total">R0.00</strong></p>
+      <button id="checkout-button" class="add-to-cart">
+        Proceed to Checkout
+      </button>
+    </section>
+  </main>
+
+  <script type="module" src="./cart.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
